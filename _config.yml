@@ -9,7 +9,7 @@ description              : "互联网和科技。"
 url                      : "http://algalon.net"
 baseurl                  :
 repository               : "fantasticfears-stage/algalon.net"
-teaser                   : /assets/images/teaser.jpg
+teaser                   : "/assets/images/teaser.jpg"
 # breadcrumbs            : false # true, false (default)
 words_per_minute         : 150
 comments:
@@ -189,7 +189,6 @@ whitelist:
   - jekyll-gist
   - jekyll-feed
   - jemoji
-
 
 # Archives
 #  Type
