@@ -1,0 +1,424 @@
+<!doctype html>
+<!--
+  Minimal Mistakes Jekyll Theme 4.4.1 by Michael Rose
+  Copyright 2017 Michael Rose - mademistakes.com | @mmistakes
+  Free for personal and commercial use under the MIT license
+  https://github.com/mmistakes/minimal-mistakes/blob/master/LICENSE.txt
+-->
+<html lang="zh" class="no-js">
+  <head>
+    <meta charset="utf-8">
+
+<!-- begin SEO -->
+
+
+
+
+
+
+
+
+
+<title>Hexo 的不一致设计和优秀 - 博客</title>
+
+
+
+
+<meta name="description" content="Hexo 是后起之秀。Hexo 是 JavaScript 的血亲。这又是这个世代的双城记。">
+
+
+
+
+<meta name="author" content="管啸">
+
+<meta property="og:locale" content="zh_CN">
+<meta property="og:site_name" content="博客">
+<meta property="og:title" content="Hexo 的不一致设计和优秀">
+
+
+  <link rel="canonical" href="http://algalon.net/2016/inconsistent-hexo-and-greatness">
+  <meta property="og:url" content="http://algalon.net/2016/inconsistent-hexo-and-greatness">
+
+
+
+  <meta property="og:description" content="Hexo 是后起之秀。Hexo 是 JavaScript 的血亲。这又是这个世代的双城记。">
+
+
+
+
+
+  
+
+  
+
+
+
+
+
+  <meta property="og:type" content="article">
+  <meta property="article:published_time" content="2016-01-22T00:00:00+01:00">
+
+
+
+
+
+
+
+
+  <script type="application/ld+json">
+    {
+      "@context" : "http://schema.org",
+      "@type" : "Person",
+      "name" : "管啸",
+      "url" : "http://algalon.net",
+      "sameAs" : null
+    }
+  </script>
+
+
+
+
+
+
+<!-- end SEO -->
+
+
+<link href="http://algalon.net/feed.xml" type="application/atom+xml" rel="alternate" title="博客 Feed">
+
+<!-- http://t.co/dKP3o1e -->
+<meta name="HandheldFriendly" content="True">
+<meta name="MobileOptimized" content="320">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<script>
+  document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
+</script>
+
+<!-- For all browsers -->
+<link rel="stylesheet" href="http://algalon.net/assets/css/main.css">
+
+<!--[if lte IE 9]>
+  <style>
+    /* old IE unsupported flexbox fixes */
+    .greedy-nav .site-title {
+      padding-right: 3em;
+    }
+    .greedy-nav button {
+      position: absolute;
+      top: 0;
+      right: 0;
+      height: 100%;
+    }
+  </style>
+<![endif]-->
+
+<meta http-equiv="cleartype" content="on">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<link rel="manifest" href="/manifest.json">
+<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#da532c">
+<meta name="apple-mobile-web-app-title" content="Erick Guan">
+<meta name="application-name" content="Erick Guan">
+<meta name="theme-color" content="#ffffff">
+
+  </head>
+
+  <body class="layout--single">
+
+    <!--[if lt IE 9]>
+<div class="notice--danger align-center" style="margin: 0;">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</div>
+<![endif]-->
+    <div class="masthead">
+  <div class="masthead__inner-wrap">
+    <div class="masthead__menu">
+      <nav id="site-nav" class="greedy-nav">
+        <a class="site-title" href="http://algalon.net/">博客</a>
+        <ul class="visible-links">
+          
+            
+            <li class="masthead__menu-item"><a href="http://algalon.net/about">关于</a></li>
+          
+            
+            <li class="masthead__menu-item"><a href="https://erickguan.me">English</a></li>
+          
+        </ul>
+        <button><div class="navicon"></div></button>
+        <ul class="hidden-links hidden"></ul>
+      </nav>
+    </div>
+  </div>
+</div>
+
+    
+
+
+
+<div id="main" role="main">
+  
+
+  <article class="page" itemscope itemtype="http://schema.org/CreativeWork">
+    <meta itemprop="headline" content="Hexo 的不一致设计和优秀">
+    <meta itemprop="description" content="Hexo 是后起之秀。Hexo 是 JavaScript 的血亲。这又是这个世代的双城记。">
+    <meta itemprop="datePublished" content="January 22, 2016">
+    
+
+    <div class="page__inner-wrap">
+      
+        <header>
+          <h1 class="page__title" itemprop="headline">Hexo 的不一致设计和优秀
+</h1>
+          
+        </header>
+      
+
+      <section class="page__content" itemprop="text">
+        <p><a href="https://hexo.io/">Hexo</a> 是后起之秀。Hexo 是 JavaScript 的血亲。这又是这个世代的双城记。</p>
+
+<h2 id="good-part">Good part</h2>
+
+<p>Hexo 基于 JavaScript，快速迭代，同时还有极好的性能。作为一个静态网页生成器，还能轻松部署到 GitHub Pages 以及国内的服务。这些都不用带来写任何代码的代价，对用户来说真是一个非常棒的选择。</p>
+
+<p>Hexo 独立了主题，编辑的主题和内容的分离是很好的选择。更少的代码量，我不用去改动主题。作为一个白目用户，我不用去操心主题的改动，我只要用优雅的 <a href="https://github.com/iissnan/hexo-theme-next">Next</a><sup id="fnref:next"><a href="#fn:next" class="footnote">1</a></sup> 即可。
+主题中也可以用 npm 的大量工具链，封装良好，容易检视和理解。毕竟所有能被 JavaScript 重写的代码，都会被 JavaScript 重写。</p>
+
+<p>Hexo 也拥有众多选项，用简单的方式给用户极大的选择。同样很不幸的，这是无数 npm 包选项的意大利面式堆砌。</p>
+
+<h2>:(</h2>
+
+<p>Hexo 无可避免地受到 Jekyll 的影响，从此灾难开始。Jekyll 所有下划线 <code class="highlighter-rouge">_</code> 开头的代表站点内容；<code class="highlighter-rouge">.</code>、<code class="highlighter-rouge">#</code>、<code class="highlighter-rouge">~</code> 是隐藏文件。这些文件不会被 build。Jekyll 会生成幂等的目录结构，目录原来是怎么样的，生成什么样的。所以 Jekyll 要遵循 convention。既然 Hexo 已经用 source 和 scaffolds 了，那么这下划线意义何在…Hexo 只关心自己需要的目录。</p>
+
+<p>Hexo 学习了 npm 的生态，模块化，但是连 RSS 都拆出去是为了什么？要使用 RSS 的话会需要加入 <code class="highlighter-rouge">hexo-generator-feed</code> 模块。这意味着同时带来了 package.json，这个及其难以手动修改的库管理文件。对比之下，Bundler 确实设计良好……现在 Next 主题还没有替换掉被 deprecated 的 bower。</p>
+
+<p>Hexo 的主题有独特的配置文件，这个配置文件不只是主题的默认配置。想要配置主题的功能，需要进到主题里去配置它……这一下就把隔离主题的意义毁了。gitmodule 跟踪了主题之后，仍然需要修改主题内容。另外 Hexo 没有实现覆盖文件的方法。同理配置文件的分离让数据源和 assets 出现在了两个位置，这真是太尴尬了。Don’t Repeat Yourself.</p>
+
+<p>Hexo 的主题可以很复杂，Hexo 没有阻止主题使用 Pipeline，那么对于 Next 这样的极高请求数的主题，甚至应该提供 pipeline 的机制来处理 assets。选择复杂还是简单，是一个 Hexo 还没有解答的问题。</p>
+
+<p>hexo server -d 是什么东西，真有人静态网页不用 nginx 部署么？还不用说微妙的 cache 问题导致每次运行命令的时候都需要 hexo clean……</p>
+
+<div class="footnotes">
+  <ol>
+    <li id="fn:next">
+      <p>博客站的载入特效没有意义，影响搜索引擎的过客找到重要的内容。&nbsp;<a href="#fnref:next" class="reversefootnote">&#8617;</a></p>
+    </li>
+  </ol>
+</div>
+
+        
+      </section>
+
+      <footer class="page__meta">
+        
+        
+  
+
+
+  
+  
+  
+
+  <p class="page__taxonomy">
+    <strong><i class="fa fa-fw fa-tags" aria-hidden="true"></i> 标签： </strong>
+    <span itemprop="keywords">
+    
+      
+      
+      <a href="http://algalon.net/tags/#hexo" class="page__taxonomy-item" rel="tag">Hexo</a>
+    
+    </span>
+  </p>
+
+
+
+
+        
+          <p class="page__date"><strong><i class="fa fa-fw fa-calendar" aria-hidden="true"></i> 最近更新：</strong> <time datetime="2016-01-22T00:00:00+01:00">January 22, 2016</time></p>
+        
+      </footer>
+
+      <section class="page__share">
+  
+    <h4 class="page__share-title">分享</h4>
+  
+
+  <a href="https://twitter.com/intent/tweet?text=Hexo 的不一致设计和优秀 http://algalon.net/2016/inconsistent-hexo-and-greatness" class="btn btn--twitter" title="分享 Twitter"><i class="fa fa-fw fa-twitter" aria-hidden="true"></i><span> Twitter</span></a>
+
+  <a href="https://www.facebook.com/sharer/sharer.php?u=http://algalon.net/2016/inconsistent-hexo-and-greatness" class="btn btn--facebook" title="分享 Facebook"><i class="fa fa-fw fa-facebook" aria-hidden="true"></i><span> Facebook</span></a>
+
+  <a href="https://plus.google.com/share?url=http://algalon.net/2016/inconsistent-hexo-and-greatness" class="btn btn--google-plus" title="分享 Google Plus"><i class="fa fa-fw fa-google-plus" aria-hidden="true"></i><span> Google+</span></a>
+
+  <a href="https://www.linkedin.com/shareArticle?mini=true&url=http://algalon.net/2016/inconsistent-hexo-and-greatness" class="btn btn--linkedin" title="分享 LinkedIn"><i class="fa fa-fw fa-linkedin" aria-hidden="true"></i><span> LinkedIn</span></a>
+</section>
+
+
+      
+  <nav class="pagination">
+    
+      <a href="http://algalon.net/2014/breaking-bad" class="pagination--pager" title="《绝命毒师》，不可错过的电视剧
+">向前</a>
+    
+    
+      <a href="http://algalon.net/2016/markdown-101" class="pagination--pager" title="Markdown 标记语言介绍
+">向后</a>
+    
+  </nav>
+
+    </div>
+
+    
+      <div class="page__comments">
+  
+    
+        <section id="static-comments">
+          
+            <!-- Start static comments -->
+            <div class="js-comments">
+              
+            </div>
+            <!-- End static comments -->
+
+            <!-- Start new comment form -->
+            <h4 class="page__comments-title">留下评论</h4>
+            <p class="small">您的电子邮箱地址并不会被展示。请填写标记为必须的字段。 <span class="required">*</span></p>
+            <form id="new_comment" class="page__comments-form js-form form" method="post" action="https://api.staticman.net/v1/entry/fantasticfears-stage/algalon.net/master">
+              <div class="form__spinner">
+                <i class="fa fa-spinner fa-spin fa-3x fa-fw"></i>
+                <span class="sr-only">正在加载...</span>
+              </div>
+
+              <fieldset>
+                <label for="comment-form-message">评论 <small class="required">*</small></label>
+                <textarea type="text" rows="3" id="comment-form-message" name="fields[message]" tabindex="1"></textarea>
+                <div class="small help-block"><a href="https://daringfireball.net/projects/markdown/">Markdown语法已支持。</a></div>
+              </fieldset>
+              <fieldset>
+                <label for="comment-form-name">姓名 <small class="required">*</small></label>
+                <input type="text" id="comment-form-name" name="fields[name]" tabindex="2" />
+              </fieldset>
+              <fieldset>
+                <label for="comment-form-email">电子邮箱 <small class="required">*</small></label>
+                <input type="email" id="comment-form-email" name="fields[email]" tabindex="3" />
+              </fieldset>
+              <fieldset>
+                <label for="comment-form-url">网站（可选）</label>
+                <input type="url" id="comment-form-url" name="fields[url]" tabindex="4"/>
+              </fieldset>
+              <fieldset class="hidden" style="display: none;">
+                <input type="hidden" name="options[slug]" value="inconsistent-hexo-and-greatness">
+                <label for="comment-form-location">Not used. Leave blank if you are a human.</label>
+                <input type="text" id="comment-form-location" name="fields[hidden]" autocomplete="off"/>
+              </fieldset>
+              <!-- Start comment form alert messaging -->
+              <p class="hidden js-notice">
+                <strong class="js-notice-text"></strong>
+              </p>
+              <!-- End comment form alert messaging -->
+              <fieldset>
+                <button type="submit" id="comment-form-submit" tabindex="5" class="btn btn--large">提交评论</button>
+              </fieldset>
+            </form>
+            <!-- End new comment form -->
+          
+        </section>
+      
+</div>
+    
+  </article>
+
+  
+  
+</div>
+
+
+    <div class="page__footer">
+      <footer>
+        
+        <div class="page__footer-follow">
+  <ul class="social-icons">
+    
+      <li><strong>关注:</strong></li>
+    
+    
+    
+    
+      <li><a href="http://github.com/fantasticfears"><i class="fa fa-fw fa-github" aria-hidden="true"></i> GitHub</a></li>
+    
+    
+    
+    <li><a href="http://algalon.net/feed.xml"><i class="fa fa-fw fa-rss-square" aria-hidden="true"></i> Feed</a></li>
+  </ul>
+</div>
+
+<div class="page__footer-copyright">&copy; 2017 管啸. 技术来自于 <a href="http://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>
+
+      </footer>
+    </div>
+
+    <script src="http://algalon.net/assets/js/main.min.js"></script>
+
+
+
+
+  <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-36993160-2', 'auto');
+  ga('send', 'pageview');
+</script>
+
+
+
+
+
+  
+      
+  <script>
+    (function ($) {
+    var $comments = $('.js-comments');
+
+    $('#new_comment').submit(function () {
+      var form = this;
+
+      $(form).addClass('disabled');
+      $('#comment-form-submit').html('<i class="fa fa-spinner fa-spin fa-fw"></i> 正在加载...');
+
+      $.ajax({
+        type: $(this).attr('method'),
+        url: $(this).attr('action'),
+        data: $(this).serialize(),
+        contentType: 'application/x-www-form-urlencoded',
+        success: function (data) {
+          $('#comment-form-submit').html('已提交');
+          $('.page__comments-form .js-notice').removeClass('notice--danger');
+          $('.page__comments-form .js-notice').addClass('notice--success');
+          showAlert('感谢您的评论！被批准后它会立即在此站点展示。');
+        },
+        error: function (err) {
+          console.log(err);
+          $('#comment-form-submit').html('提交评论');
+          $('.page__comments-form .js-notice').removeClass('notice--success');
+          $('.page__comments-form .js-notice').addClass('notice--danger');
+          showAlert('很抱歉，您的提交存在错误。请确保所有必填字段都已填写正确，然后再试一次。');
+          $(form).removeClass('disabled');
+        }
+      });
+
+      return false;
+    });
+
+    function showAlert(message) {
+      $('.page__comments-form .js-notice').removeClass('hidden');
+      $('.page__comments-form .js-notice-text').html(message);
+    }
+  })(jQuery);
+  </script>
+
+    
+
+
+
+  </body>
+</html>
