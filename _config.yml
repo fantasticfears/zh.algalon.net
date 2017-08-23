@@ -5,7 +5,7 @@ locale                   : "zh-CN"
 title                    : "博客"
 title_separator          : "-"
 name                     : "管啸"
-description              : "互联网和科技。"
+description              : "身在科技圈，哪能不湿身……代码要写，然而也不曾忘记文字的力量。"
 url                      : "http://algalon.net"
 baseurl                  :
 repository               : "fantasticfears-stage/algalon.net"
@@ -75,7 +75,7 @@ analytics:
 author:
   name             : "管啸"
   avatar           : "/assets/images/bio-photo.jpg"
-  bio              : "软件工程师，学到老活到老。人生各有不同。尊重，尝试理解别人。去做想做的事。"
+  bio              : "现在写代码的，以后卖货的。人生各有不同的精彩。尊重，尝试理解别人。去做想做的事。"
   location         : "Sundsvall, Sweden"
   email            :
   uri              :
