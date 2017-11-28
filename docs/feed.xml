@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>博客</title>
-    <description>身在科技圈，哪能不湿身……代码要写，然而也不曾忘记文字的力量。</description>
+    <description>一个2008年的孩子；一个2017年的低端人口。</description>
     <link>http://algalon.net/</link>
     <atom:link href="http://algalon.net/feed.xml" rel="self" type="application/rss+xml" />
     
