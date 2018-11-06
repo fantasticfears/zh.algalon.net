@@ -7,7 +7,7 @@ title_separator          : "-"
 name                     : "管啸"
 description              : "一个2008年的孩子；一个2017年的低端人口。"
 url                      : "http://algalon.net"
-baseurl                  :
+baseurl                  : "/"
 repository               : "fantasticfears-stage/algalon.net"
 teaser                   : "/assets/images/teaser.jpg"
 # breadcrumbs            : false # true, false (default)
