@@ -6,9 +6,9 @@ header:
   teaser: /assets/images/2018/elaine-casap-86020-unsplash-200.jp
   caption: Photo by [Elaine Casap](https://unsplash.com/photos/qgHGDbbSNm8?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) on [Unsplash](https://unsplash.com/?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)
 tags:
-  - 青年
+  - 平凡之路
   - 心智
-last_modified_at: 2018-11-11T11:32:50+01:00
+last_modified_at: 2018-11-16T09:22:57+01:00
 ---
 
 成年人会更多地给与而不是索取。醒醒吧，你已经不再是小孩了。小孩子总是能得到我们的关心和爱护。人类的幼儿弱小，需要保护和资源才能成长。你是个成年人，所以才不呢。

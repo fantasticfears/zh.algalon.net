@@ -6,9 +6,9 @@ header:
   teaser: /assets/images/2018/thomas-millot-1114406-unsplash-200.jpg
   caption: Photo by [Thomas Millot](https://unsplash.com/photos/KQ1Zz9P03-c?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) on [Unsplash](https://unsplash.com/@fantasticfears/likes?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)
 tags:
-  - 青年
+  - 平凡之路
   - 心智
-last_modified_at: 2018-11-11T12:27:13+01:00
+last_modified_at: 2018-11-16T09:22:57+01:00
 ---
 
 > 为国为民，侠之大者 —— 金庸

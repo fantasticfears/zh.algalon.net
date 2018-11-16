@@ -6,9 +6,9 @@ header:
   teaser: /assets/images/2018/georgia-de-lotz-468526-unsplash-200.jpg
   caption: Photo by [Georgia de Lotz](https://unsplash.com/photos/-3xSBrSzTjg?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) on [Unsplash](https://unsplash.com/?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)
 tags:
-  - 青年
+  - 平凡之路
   - 心智
-last_modified_at: 2018-11-11T11:09:51+01:00
+last_modified_at: 2018-11-16T09:22:57+01:00
 ---
 
 无论你经历过什么，都不要期待结局。你可能在学业中挣扎，或者身处家庭的伤害中而不自知，亦或者你刚跟曾经心爱的人说分手。生活就是这样。我们每个人都做出自己的选择，而曾经故事和选择的结局却不是那么明确的。不过啊，你不能等待结局的来临。
