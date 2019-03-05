@@ -1,5 +1,4 @@
 ---
-layout: post
 title: 看短视频能娱乐吗？
 header:
   image: /assets/images/2019/sergio-alejandro-ortiz-110188-unsplash-1400.jpg
