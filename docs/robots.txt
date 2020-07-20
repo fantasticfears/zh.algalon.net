@@ -1,1 +1,1 @@
-Sitemap: http://algalon.net/sitemap.xml
+Sitemap: https://lifelimited.company/sitemap.xml

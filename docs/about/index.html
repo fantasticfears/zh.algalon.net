@@ -1,43 +1,33 @@
 <!doctype html>
 <!--
-  Minimal Mistakes Jekyll Theme 4.5.1 by Michael Rose
-  Copyright 2017 Michael Rose - mademistakes.com | @mmistakes
+  Minimal Mistakes Jekyll Theme 4.19.1 by Michael Rose
+  Copyright 2013-2019 Michael Rose - mademistakes.com | @mmistakes
   Free for personal and commercial use under the MIT license
-  https://github.com/mmistakes/minimal-mistakes/blob/master/LICENSE.txt
+  https://github.com/mmistakes/minimal-mistakes/blob/master/LICENSE
 -->
 <html lang="zh" class="no-js">
   <head>
     <meta charset="utf-8">
 
-<!-- begin SEO -->
+<!-- begin _includes/seo.html --><title>关于 - 博客</title>
+<meta name="description" content="一个2008年的孩子；一个2017年的低端人口。 ">
 
 
+  <meta name="author" content="管啸">
 
 
-
-
-
-
-
-<title>关于 - 博客</title>
-
-
-
-
-<meta name="description" content="一个2008年的孩子；一个2017年的低端人口。">
-
-
-
-
-<meta name="author" content="管啸">
-
+<meta property="og:type" content="website">
 <meta property="og:locale" content="zh_CN">
 <meta property="og:site_name" content="博客">
 <meta property="og:title" content="关于">
+<meta property="og:url" content="https://lifelimited.company/about/">
 
 
-  <link rel="canonical" href="http://algalon.net/about/">
-  <meta property="og:url" content="http://algalon.net/about/">
+  <meta property="og:description" content="一个2008年的孩子；一个2017年的低端人口。 ">
+
+
+
+
 
 
 
@@ -50,39 +40,33 @@
   
 
 
+<link rel="canonical" href="https://lifelimited.company/about/">
+
+
+
+
+<script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    
+      "@type": "Person",
+      "name": "管啸",
+      "url": "https://lifelimited.company/"
+    
+  }
+</script>
 
 
 
 
 
 
+<!-- end _includes/seo.html -->
 
 
+<link href="/feed.xml" type="application/atom+xml" rel="alternate" title="博客 Feed">
 
-
-  <script type="application/ld+json">
-    {
-      "@context" : "http://schema.org",
-      "@type" : "Person",
-      "name" : "管啸",
-      "url" : "http://algalon.net",
-      "sameAs" : null
-    }
-  </script>
-
-
-
-
-
-
-<!-- end SEO -->
-
-
-<link href="http://algalon.net/feed.xml" type="application/atom+xml" rel="alternate" title="博客 Feed">
-
-<!-- http://t.co/dKP3o1e -->
-<meta name="HandheldFriendly" content="True">
-<meta name="MobileOptimized" content="320">
+<!-- https://t.co/dKP3o1e -->
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 <script>
@@ -90,9 +74,9 @@
 </script>
 
 <!-- For all browsers -->
-<link rel="stylesheet" href="http://algalon.net/assets/css/main.css">
+<link rel="stylesheet" href="/assets/css/main.css">
 
-<!--[if lte IE 9]>
+<!--[if IE]>
   <style>
     /* old IE unsupported flexbox fixes */
     .greedy-nav .site-title {
@@ -107,7 +91,8 @@
   </style>
 <![endif]-->
 
-<meta http-equiv="cleartype" content="on">
+
+
     <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
 <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
 <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
@@ -120,32 +105,47 @@
   </head>
 
   <body class="layout--single">
+    <nav class="skip-links">
+  <h2 class="screen-reader-text">Skip links</h2>
+  <ul>
+    <li><a href="#site-nav" class="screen-reader-shortcut">Skip to primary navigation</a></li>
+    <li><a href="#main" class="screen-reader-shortcut">Skip to content</a></li>
+    <li><a href="#footer" class="screen-reader-shortcut">Skip to footer</a></li>
+  </ul>
+</nav>
 
     <!--[if lt IE 9]>
-<div class="notice--danger align-center" style="margin: 0;">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</div>
+<div class="notice--danger align-center" style="margin: 0;">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience.</div>
 <![endif]-->
-    <div class="masthead">
+
+    
+
+<div class="masthead">
   <div class="masthead__inner-wrap">
     <div class="masthead__menu">
       <nav id="site-nav" class="greedy-nav">
-        <a class="site-title" href="http://algalon.net/">博客</a>
-        <ul class="visible-links">
+        
+        <a class="site-title" href="/">
+          博客
           
-            
-            <li class="masthead__menu-item"><a href="http://algalon.net/about">关于</a></li>
-          
-            
-            <li class="masthead__menu-item"><a href="https://erickguan.me">English</a></li>
-          
-        </ul>
-        <button><div class="navicon"></div></button>
+        </a>
+        <ul class="visible-links"><li class="masthead__menu-item">
+              <a href="/about">关于</a>
+            </li></ul>
+        
+        <button class="greedy-nav__toggle hidden" type="button">
+          <span class="visually-hidden">切换菜单</span>
+          <div class="navicon"></div>
+        </button>
         <ul class="hidden-links hidden"></ul>
       </nav>
     </div>
   </div>
 </div>
 
-    
+
+    <div class="initial-content">
+      
 
 
 
@@ -154,22 +154,26 @@
   <div class="sidebar sticky">
   
 
-<div itemscope itemtype="http://schema.org/Person">
+
+<div itemscope itemtype="https://schema.org/Person">
 
   
     <div class="author__avatar">
       
-        <img src="http://algalon.net/assets/images/bio-photo.jpg" class="author__avatar" alt="管啸" itemprop="image">
+        <img src="/assets/images/bio-photo.jpg" alt="管啸" itemprop="image">
       
     </div>
   
 
   <div class="author__content">
-    <h3 class="author__name" itemprop="name">管啸</h3>
     
-      <p class="author__bio" itemprop="description">
-        一个2008年的孩子；一个2017年的低端人口。
-      </p>
+      <h3 class="author__name" itemprop="name">管啸</h3>
+    
+    
+      <div class="author__bio" itemprop="description">
+        <p>一个2008年的孩子；一个2017年的低端人口。</p>
+
+      </div>
     
   </div>
 
@@ -177,8 +181,8 @@
     <button class="btn btn--inverse">关注</button>
     <ul class="author__urls social-icons">
       
-        <li itemprop="homeLocation" itemscope itemtype="http://schema.org/Place">
-          <i class="fa fa-fw fa-map-marker" aria-hidden="true"></i> <span itemprop="name">Sundsvall, Sweden</span>
+        <li itemprop="homeLocation" itemscope itemtype="https://schema.org/Place">
+          <i class="fas fa-fw fa-map-marker-alt" aria-hidden="true"></i> <span itemprop="name">Sundsvall, Sweden</span>
         </li>
       
 
@@ -196,8 +200,8 @@
 
       
         <li>
-          <a href="https://www.linkedin.com/in/fantasticfears" itemprop="sameAs">
-            <i class="fa fa-fw fa-linkedin-square" aria-hidden="true"></i> LinkedIn
+          <a href="https://www.linkedin.com/in/fantasticfears" itemprop="sameAs" rel="nofollow noopener noreferrer">
+            <i class="fab fa-fw fa-linkedin" aria-hidden="true"></i> LinkedIn
           </a>
         </li>
       
@@ -212,8 +216,8 @@
 
       
         <li>
-          <a href="https://github.com/fantasticfears" itemprop="sameAs">
-            <i class="fa fa-fw fa-github" aria-hidden="true"></i> GitHub
+          <a href="https://github.com/fantasticfears" itemprop="sameAs" rel="nofollow noopener noreferrer">
+            <i class="fab fa-fw fa-github" aria-hidden="true"></i> GitHub
           </a>
         </li>
       
@@ -222,24 +226,8 @@
 
       
         <li>
-          <a href="https://www.stackoverflow.com/users/1612428/fantasticfears" itemprop="sameAs">
-            <i class="fa fa-fw fa-stack-overflow" aria-hidden="true"></i> Stackoverflow
-          </a>
-        </li>
-      
-
-      
-
-      
-
-      
-
-      
-
-      
-        <li>
-          <a href="https://steamcommunity.com/id/fantasticfears" itemprop="sameAs">
-            <i class="fa fa-fw fa-steam-square" aria-hidden="true"></i> Steam
+          <a href="https://stackoverflow.com/users/1612428/fantasticfears" itemprop="sameAs" rel="nofollow noopener noreferrer">
+            <i class="fab fa-fw fa-stack-overflow" aria-hidden="true"></i> Stack Overflow
           </a>
         </li>
       
@@ -249,9 +237,25 @@
       
 
       
+
+      
+
+      
         <li>
-          <a href="https://www.weibo.com/fantasticfears" itemprop="sameAs">
-            <i class="fa fa-fw fa-weibo" aria-hidden="true"></i> Weibo
+          <a href="https://steamcommunity.com/id/fantasticfears" itemprop="sameAs" rel="nofollow noopener noreferrer">
+            <i class="fab fa-fw fa-steam" aria-hidden="true"></i> Steam
+          </a>
+        </li>
+      
+
+      
+
+      
+
+      
+        <li>
+          <a href="https://www.weibo.com/fantasticfears" itemprop="sameAs" rel="nofollow noopener noreferrer">
+            <i class="fab fa-fw fa-weibo" aria-hidden="true"></i> Weibo
           </a>
         </li>
       
@@ -264,8 +268,8 @@
 
       <!--
   <li>
-    <a href="http://link-to-whatever-social-network.com/user/" itemprop="sameAs">
-      <i class="fa fa-fw" aria-hidden="true"></i> Custom Social Profile Link
+    <a href="http://link-to-whatever-social-network.com/user/" itemprop="sameAs" rel="nofollow noopener noreferrer">
+      <i class="fas fa-fw" aria-hidden="true"></i> Custom Social Profile Link
     </a>
   </li>
 -->
@@ -277,7 +281,8 @@
   </div>
 
 
-  <article class="page" itemscope itemtype="http://schema.org/CreativeWork">
+
+  <article class="page" itemscope itemtype="https://schema.org/CreativeWork">
     <meta itemprop="headline" content="关于">
     
     
@@ -286,14 +291,17 @@
     <div class="page__inner-wrap">
       
         <header>
-          <h1 class="page__title" itemprop="headline">关于
+          <h1 id="page-title" class="page__title" itemprop="headline">关于
 </h1>
           
         </header>
       
 
       <section class="page__content" itemprop="text">
-        <p>我现在正在瑞典的中瑞典大学学习。我来自于福建三明。</p>
+        
+        <p>我来自于福建三明。</p>
+
+<p>第二个十年，有很多对世界的想法，我会试着完成。</p>
 
 <p>空闲时间，我会给开源项目写代码、读书、写作、玩游戏、运动和交朋友。我很喜欢跨文化的工作环境。</p>
 
@@ -302,7 +310,8 @@
 <p>我使用 PGP，<a href="https://pgp.mit.edu/pks/lookup?op=get&amp;search=0x10075E9E76407351">密钥是</a> 76407351
 我也使用过 Gentoo，蛮喜欢造自己的硬件和系统。</p>
 
-<p>我的阅读比较偏向政治、文明、艺术和金融。</p>
+<p>我的阅读比较偏向政治、文明、艺术和金融。
+我期待着中国的文艺复兴。</p>
 
 <p>最后，向计算机、人性和可爱的人们致敬。</p>
 
@@ -329,8 +338,11 @@
   
 </div>
 
+    </div>
 
-    <div class="page__footer">
+    
+
+    <div id="footer" class="page__footer">
       <footer>
         
 
@@ -339,36 +351,39 @@
     
       <li><strong>关注:</strong></li>
     
+
     
-    
-    
-      <li><a href="http://github.com/fantasticfears"><i class="fa fa-fw fa-github" aria-hidden="true"></i> GitHub</a></li>
-    
-    
-    
-    <li><a href="http://algalon.net/feed.xml"><i class="fa fa-fw fa-rss-square" aria-hidden="true"></i> Feed</a></li>
+
+    <li><a href="/feed.xml"><i class="fas fa-fw fa-rss-square" aria-hidden="true"></i> Feed</a></li>
   </ul>
 </div>
 
-<div class="page__footer-copyright">&copy; 2017 管啸. 技术来自于 <a href="http://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>
+<div class="page__footer-copyright">&copy; 2020 管啸. 技术来自于 <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>
 
       </footer>
     </div>
 
-    <script src="http://algalon.net/assets/js/main.min.js"></script>
+    
+  <script src="/assets/js/main.min.js"></script>
+  <script src="https://kit.fontawesome.com/4eee35f757.js"></script>
 
 
 
 
-  <script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
 
-  ga('create', 'UA-36993160-2', 'auto');
-  ga('send', 'pageview');
+
+
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-36993160-2"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-36993160-2', { 'anonymize_ip': false});
 </script>
+
+
 
 
 
